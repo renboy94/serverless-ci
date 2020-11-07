@@ -27,7 +27,7 @@ package:
 
 custom:
   tableName: player-points-table
-  bucketName: myserverlessprojectuploadbucket-123123
+  bucketName: renboy94-myserverlessprojectuploadbucket-123123
   dynamodb:
     stages:
       - dev
