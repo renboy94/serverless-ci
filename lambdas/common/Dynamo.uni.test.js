@@ -28,7 +28,6 @@ test("Dynamo get works", async () => {
     await Dynamo.write(data, validTableName);
     const res = await Dynamo.get(data.ID, validTableName);
     expect(res).toEqual(data);
-    done();
   } catch (error) {
     console.log("Error in dynamo get test", error);
   }
